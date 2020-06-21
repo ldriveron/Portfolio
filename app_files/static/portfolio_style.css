@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
 html, body {
     font-family: "Roboto", sans-serif;
     height: 100%;
@@ -23,7 +25,7 @@ html a, body a {
 
 /** Left **/
 .header_left {
-    font-family: "Playfair Display", sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     width: 300px;
     color: #fff;
     font-size: 70px;
@@ -158,6 +160,7 @@ html a, body a {
     width: 100%;
     font-size: 14px;
     font-style: italic;
+    font-weight: 300;
     line-height: 1.5;
     color: #fff;
     margin-top: 30px;
@@ -319,7 +322,7 @@ html a, body a {
 	    width: 600px;
 	}
 
-	.project {
+	.first_project {
 	    margin-right: 20px;
 	}
 
@@ -329,10 +332,13 @@ html a, body a {
     }
 }
 
-@media all and (max-width: 966px) {
-    .first_project {
-	    margin-bottom: 60px;
-	    margin-right: 0px;
+@media all and (max-width: 988px) {
+    .project {
+	    margin-right: 20px;
+	}
+
+	.first_project {
+	    margin-bottom: 70px;
 	}
 }
 
