@@ -78,12 +78,12 @@ html a, body a {
     background: linear-gradient(90deg, rgba(29,181,239,1) 0%, rgba(8,164,220,1) 100%);
     font-size: 14px;
     border-radius: 10px;
-    border: 1px solid rgba(29,181,239, 0);
+    border: 1px solid rgb(29,181,239);
 }
 
 .resume_link a:hover {
     border: 1px solid rgb(29,181,239);
-    background: rgba(0,0,0,0);
+    background: #23273A;
 }
 
 /** Right **/
@@ -257,6 +257,24 @@ html a, body a {
 .project_details a:hover {
     color: #000;
     background-color: #F3C782;
+}
+
+.gh_link {
+    float: right;
+    margin-right: 150px;
+}
+
+.gh_link a {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 0;
+    border: none;
+}
+
+.gh_link a:hover {
+    color: #fff;
+    background-color: #313551;
 }
 
 /** Footer **/
