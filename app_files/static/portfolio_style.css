@@ -200,10 +200,11 @@ html a, body a {
     background-color: #313551;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin-right: 50px;
 }
 
 .first_project {
-    margin-right: 50px;
+
 }
 
 .project_screenshot {
